@@ -53,4 +53,4 @@ jobs:
 
       - name: Run Merlin queries and diff the result
         run: |
-          sh ./bench_irmin.sh
+          sh ./bench-irmin.sh
