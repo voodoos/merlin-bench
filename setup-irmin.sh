@@ -1,5 +1,3 @@
-
-
 git clone git@github.com:mirage/irmin.git
 cd irmin
 
