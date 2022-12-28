@@ -1,0 +1,22 @@
+opam-version: "2.0"
+maintainer:   "thevoodoos@gmail.com"
+authors:      "The Merlin team"
+homepage:     "https://github.com/voodoos/merlin-bench"
+bug-reports:  "https://github.com/voodoos/merlin-bench/issues"
+dev-repo:     "git+https://github.com/voodoos/merlin-bench.git"
+license:      "MIT"
+build: [
+  ["dune" "subst"] {dev}
+  ["dune" "build" "-p" name "-j" jobs]
+]
+depends: [
+  "ocaml" { >= "4.14" <= "5.0"}
+  "irmin"
+]
+pin-depends: [
+  ["merl-an.dev" "git+https://github.com/voodoos/merl-an#7afaa616fb9504254a774b873136845f304e7b1d"]
+]
+synopsis:
+  "Merlin's non-regression testing"
+description:
+  ""
