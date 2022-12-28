@@ -1,4 +1,4 @@
-git clone git@github.com:mirage/irmin.git
+git clone https://github.com/mirage/irmin.git
 cd irmin
 
 git checkout 3.5.0
